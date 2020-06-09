@@ -1,0 +1,93 @@
+body {
+  font-family: "Oswald", sans-serif !important;
+}
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/webfonts/oswald-v25-latin-regular.eot"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/webfonts/oswald-v25-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/webfonts/oswald-v25-latin-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("/webfonts/oswald-v25-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/webfonts/oswald-v25-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/webfonts/oswald-v25-latin-regular.svg#Oswald") format("svg"); /* Legacy iOS */
+}
+
+.B-navbar {
+  background-color: white;
+}
+
+.B-logo {
+  width: 150px;
+}
+
+.B-category {
+  position: relative !important;
+}
+
+.B-categories {
+  position: absolute;
+  left: 10px;
+  top: 80px;
+  background-color: #fff;
+  margin: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in;
+  z-index: 5555;
+}
+
+.B-category:hover .B-categories {
+  opacity: 1;
+  visibility: visible;
+  top: 50px;
+}
+
+.B-categories li {
+  padding: 0px 30px;
+  border-bottom: solid #ededed 1px;
+}
+.B-categories li:hover {
+  background-color: blue;
+}
+.B-categories li:hover a {
+  color: white;
+}
+.B-categories li a {
+  line-height: 35px;
+  color: #222;
+  text-decoration: none;
+}
+
+.fa-shopping-cart {
+  position: relative;
+}
+#B-product-count {
+  position: absolute;
+  right: -60%;
+  top: -75%;
+  z-index: 5;
+  color: white;
+  font-size: 10px;
+  background-color: #0090c5;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.B-color-hc {
+  color: black !important;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.B-color-hc:hover {
+  color: #384aeb !important;
+  font-size: 15px;
+  font-weight: 200;
+}

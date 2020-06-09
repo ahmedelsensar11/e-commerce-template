@@ -1,0 +1,306 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="dist/category.bundle.css" />
+  </head>
+  <body>
+    <div class=" B-navbar ">
+      <nav class="navbar navbar-expand-lg container   navbar-light">
+        <a class="navbar-brand" href="home.html"
+          ><img src="images/gifts_com_logo.png" class="B-logo"
+        /></a>
+        <button
+          class="navbar-toggler d-lg-none "
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavId">
+          <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+            <li class="nav-item ml-2 active ">
+              <a class="nav-link B-color-hc" href="home.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item ml-2  B-category">
+              <a class="nav-link B-color-hc" href="#">Shop Category</a>
+              <ul class="list-unstyled B-categories">
+                <li><a href="category.html"> HIM </a></li>
+                <li><a href="category.html">HER</a></li>
+                <li><a href="category.html">KIDS</a></li>
+                <li><a href="category.html">BIRTHDAY</a></li>
+                <li><a href="category.html">OCCASSION</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+          </form>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+            <li class="nav-item ml-2  ">
+              <a class="nav-link  B-color-hc" href="login.html">
+                <i class="fas fa-user  "></i> ACCOUNT</a
+              >
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link  B-color-hc" href="cart.html">
+                CART
+                <i class="fas fa-shopping-cart">
+                  <span id="B-product-count">0</span></i
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <section class="o-category-header text-center">
+      <h2 class="o-selected-category">Men</h2>
+    </section>
+    <section class="o-categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-5">
+            <div class="o-side-filters">
+              <div class="o-product-filter">
+                <div class="top-filter-head">Product Filters</div>
+                <div class="common-filter">
+                  <div class="head">Brands</div>
+                  <form action="#">
+                    <ul class="list-unstyled text-muted">
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="apple"
+                          name="brand"
+                        /><label for="apple">Apple<span>(29)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="asus"
+                          name="brand"
+                        /><label for="asus">Asus<span>(29)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="gionee"
+                          name="brand"
+                        /><label for="gionee">Gionee<span>(19)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="micromax"
+                          name="brand"
+                        /><label for="micromax"
+                          >Micromax<span>(19)</span></label
+                        >
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="samsung"
+                          name="brand"
+                        /><label for="samsung">Samsung<span>(19)</span></label>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="common-filter">
+                  <div class="head">Color</div>
+                  <form action="#">
+                    <ul class="list-unstyled text-muted">
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="black"
+                          name="color"
+                        /><label for="black">Black<span>(29)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="balckleather"
+                          name="color"
+                        /><label for="balckleather"
+                          >Black Leather<span>(29)</span></label
+                        >
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="blackred"
+                          name="color"
+                        /><label for="blackred"
+                          >Black with red<span>(19)</span></label
+                        >
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="gold"
+                          name="color"
+                        /><label for="gold">Gold<span>(19)</span></label>
+                      </li>
+                      <li class="filter-list">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="spacegrey"
+                          name="color"
+                        /><label for="spacegrey"
+                          >Spacegrey<span>(19)</span></label
+                        >
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="common-filter">
+                  <div class="head">Price</div>
+                  <div class="price-range-area text-muted">
+                    <div id="price-range" class="mr-3">
+                      <div id="slider"></div>
+                    </div>
+                    <div class="value-wrapper d-flex mt-3">
+                      <div class="price mr-1">Price:</div>
+                      <span>$</span>
+                      <div id="lower-value">500.00</div>
+                      <div class="px-2">to</div>
+                      <span>$</span>
+                      <div id="upper-value">4000.00</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-9 col-lg-8 col-md-7">
+            <div class="filter-bar d-flex flex-wrap align-items-center">
+              <div class="sorting">
+                <select style="display: none;">
+                  <option value="1">sort by name</option>
+                  <option value="1">sort by brand</option>
+                  <option value="1">sort by price</option>
+                </select>
+                <div class="nice-select" tabindex="0">
+                  <span class="current">sort by name</span>
+                  <ul class="list list-unstyled">
+                    <li data-value="1" class="option selected">
+                      sort by name
+                    </li>
+                    <li data-value="1" class="option">sort by brand</li>
+                    <li data-value="1" class="option">sort by price</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="sorting mr-auto">
+                <select style="display: none;">
+                  <option value="1">Show 12</option>
+                  <option value="1">Show 24</option>
+                  <option value="1">Show 36</option>
+                </select>
+                <div class="nice-select" tabindex="0">
+                  <span class="current">Show 12</span>
+                  <ul class="list list-unstyled">
+                    <li data-value="1" class="option selected">Show 12</li>
+                    <li data-value="1" class="option">Show 24</li>
+                    <li data-value="1" class="option">Show 36</li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="input-group filter-bar-search text-muted">
+                  <input type="text" placeholder="Search" />
+                  <div class="input-group-append">
+                    <button type="button">
+                      <i class="fas fa-search text-muted"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="o-products-area">
+              <div class="row"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="myFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>Contact Us</h5>
+            <ul>
+              <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>About us</h5>
+            <ul>
+              <li><a href="about us.html">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>Feedback</h5>
+            <ul>
+              <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>Legal</h5>
+            <ul>
+              <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-networks">
+        <a href="#" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="google">
+          <i class="fab fa-google"></i>
+        </a>
+
+        <a href="#" class="insta">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© 2019 Copyright Gifts</p>
+      </div>
+    </footer>
+
+    <script src="dist/category.bundle.js"></script>
+  </body>
+</html>

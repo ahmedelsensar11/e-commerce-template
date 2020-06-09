@@ -1,0 +1,181 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="dist/contactus.bundle.css" />
+  </head>
+  <body>
+    <div class=" B-navbar ">
+      <nav class="navbar navbar-expand-lg container   navbar-light">
+        <a class="navbar-brand" href="home.html"
+          ><img src="images/gifts_com_logo.png" class="B-logo"
+        /></a>
+        <button
+          class="navbar-toggler d-lg-none "
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavId">
+          <ul class="navbar-nav m-auto mt-2 mt-lg-0">
+            <li class="nav-item ml-2 active ">
+              <a class="nav-link B-color-hc" href="home.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item ml-2  B-category">
+              <a class="nav-link B-color-hc" href="#">Shop Category</a>
+              <ul class="list-unstyled B-categories">
+                <li><a href="category.html"> HIM </a></li>
+                <li><a href="category.html">HER</a></li>
+                <li><a href="category.html">KIDS</a></li>
+                <li><a href="category.html">BIRTHDAY</a></li>
+                <li><a href="category.html">OCCASSION</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="text"
+              placeholder="Search"
+            />
+          </form>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+            <li class="nav-item ml-2  ">
+              <a class="nav-link  B-color-hc" href="login.html">
+                <i class="fas fa-user  "></i> ACCOUNT</a
+              >
+            </li>
+            <li class="nav-item ml-2">
+              <a class="nav-link  B-color-hc" href="cart.html">
+                CART
+                <i class="fas fa-shopping-cart">
+                  <span id="B-product-count">0</span></i
+                >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container B-contact-us mb-3">
+      <div class="alert alert-danger text-center" role="alert">
+        Please note - Customer Service Hours are currently weekdays: 7 am - 6 pm
+        PDT; weekends: 8 am - 5 pm PDT
+      </div>
+
+      <h3 class="text-muted py-2 text-center">Need help?</h3>
+      <div class="row">
+        <div class="col-md-8">
+          <p class="text-muted py-2">
+            you can fill the below contact form and we make sure to get back to
+            you <br />as soon as possible.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <form>
+            <label>First Name*</label><br />
+            <input
+              type="text"
+              name="Bname"
+              maxlength="10"
+              minlength="2"
+              class="form-control"
+              required
+            />
+
+            <label>Email*</label> <br />
+            <input type="email" name="Bmail" class="form-control" required />
+
+            <label>Mobile</label><br />
+            <input
+              type="text"
+              name="Bage"
+              maxlength="15"
+              minlength="11"
+              class="form-control"
+            />
+
+            <br />
+
+            <label>Comments*</label><br />
+            <textarea
+              name="ucomment"
+              placeholder="comments"
+              class="form-control"
+              required
+            ></textarea>
+
+            <br />
+
+            <button type="submit" class="btn btn-success px-4">SEND</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer id="myFooter">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>Contact Us</h5>
+            <ul>
+              <li><a href="contact us.html">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>About us</h5>
+            <ul>
+              <li><a href="about us.html">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>Feedback</h5>
+            <ul>
+              <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-sm-6 myCols">
+            <h5>Legal</h5>
+            <ul>
+              <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="social-networks">
+        <a href="#" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="google">
+          <i class="fab fa-google"></i>
+        </a>
+
+        <a href="#" class="insta">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>© 2019 Copyright Gifts</p>
+      </div>
+    </footer>
+
+    <script src="dist/contactus.bundle.js"></script>
+  </body>
+</html>

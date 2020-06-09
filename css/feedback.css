@@ -1,0 +1,191 @@
+/* Start General Ruls*/
+
+body
+{
+    font-family: sans-serif;
+    background-color: #f7f7f7
+
+}
+
+
+#myFooter {
+	background-color: #1f2021;
+	color:#3e4652;
+}
+
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#45636e;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:#ccc;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+#myFooter .insta:hover{
+	color: #ca97dae5;
+}
+
+
+
+
+.AHrate-disc  h6
+{
+    color: #17a2b8;
+    font-size: 14px;
+}
+
+
+.AHcontent
+{
+    background-color: white;
+    width: 78%;
+    
+    border: solid 1px #dedede;
+    border-top-color: transparent
+}
+
+.AHcontent .AHaddress
+{
+    border-bottom: solid 1px #ebebeb;
+    border-bottom-width: 80%
+}
+
+.AHitem
+{
+    width: 100%;
+    height: 100px;
+    
+}
+
+.AHrate-experience .AHitem .btn
+{
+    width: 100%;
+    height: 35px;
+    border-color: #cdcdcd;
+    font-size: 11.9px;
+    color: #593f3b
+}
+
+.AHrate-experience .AHitem .btn:hover
+{
+    background-color: #cbcbcb
+
+}
+
+
+.AHrate-experience .AHitem i
+{
+    font-size: 45px;
+    color: #cdcdcd
+}
+
+
+
+
+.AHrate-service , .AHshare , .AHyourMessage , .AHsubmit
+{
+    border-top: solid 1px #ebebeb;
+    border-width: 80%
+}
+.AHbtns-row
+{
+    padding: 0px
+}
+
+.AHbtns-row .btn
+{
+    border-radius: 0px;
+    border-color: #cdcdcd
+}
+
+.AHbtns-row .btn:hover
+{
+    background-color: #cbcbcb
+};
+
+
+/*Start Footer */
+
+
+/* Footer */
+
+
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+

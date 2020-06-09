@@ -1,0 +1,9 @@
+import "bootstrap/dist/css/bootstrap.css";
+import "../css/all.min.css";
+import "../css/navbar.css";
+import "../css/footer.css";
+import "../css/terms.css";
+import "jquery";
+import "popper.js";
+import "bootstrap";
+import "../js/navbar";

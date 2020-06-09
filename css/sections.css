@@ -1,0 +1,42 @@
+#am-body
+{
+    font-family: "Oswald",sans-serif;
+}
+#am-headCart
+{
+    background-image: url(../images/cart-bg.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}
+#am-headCart h2
+{
+    font-size: 55px;
+    color: dimgrey;
+}
+.am-header
+{
+    border-bottom: solid 1px gray;
+    padding-top: 25px;
+    color: dimgrey;
+}
+.am-cart h5
+{
+    color: grey;
+}
+.am-cart p
+{
+    margin: 0;
+    display: inline-block;
+    padding: 0px 10px;
+}
+#am-minBtn , #am-plusBtn
+{
+    opacity: 0.5;
+}
+#am-minBtn:hover , #am-plusBtn:hover
+{
+    opacity: 1;
+}
